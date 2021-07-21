@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter,Switch, Route } from "react-router-dom";
-import Home from './components/Home';
-import Login from './components/Login';
-import './App.css';
-import PostList from './components/PostList';
-import Posts from './components/Posts';
-import Answers from './components/Answers';
+import Home from './components/pages/home';
+// import Login from './components/Login';
+// import './App.css';
+// import PostList from './components/PostList';
+// import Posts from './components/Posts';
+// import Answers from './components/Answers';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
        <BrowserRouter>
           <Switch>
             <Route exact path='/'> <Home /> </Route>
-            <Route path="/auth/login" > <Login /> </Route>
+            {/* <Route path="/auth/login" > <Login /> </Route>
             <Route path="/questions/:_id/:title"> <Answers /> </Route>
             <Route path="/questions/ask" > <Posts /> </Route>
-            <Route path="/questions" > <PostList /> </Route>
+            <Route path="/questions" > <PostList /> </Route> */}
         </Switch>
         </BrowserRouter>
       </React.Fragment>
