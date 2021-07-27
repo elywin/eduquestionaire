@@ -16,6 +16,7 @@ import CommentIcon from '@material-ui/icons/Comment';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Question from './question'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -50,6 +51,8 @@ export default function RecipeReviewCard() {
   };
 
   return (
+      <div>
+      <Question />
     <Card className={classes.root}>
       <CardHeader
         avatar={
@@ -110,5 +113,6 @@ export default function RecipeReviewCard() {
         </CardContent>
       </Collapse>
     </Card>
+    </div>
   );
 }
