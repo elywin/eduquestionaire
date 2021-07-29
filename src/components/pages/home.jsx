@@ -52,7 +52,9 @@ export default function RecipeReviewCard() {
 
   return (
       <div>
+        
       <Question />
+
     <Card className={classes.root}>
       <CardHeader
         avatar={
