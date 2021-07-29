@@ -17,6 +17,7 @@ import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import Question from './question'
+import Navbar from './navbar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,7 +53,7 @@ export default function RecipeReviewCard() {
 
   return (
       <div>
-        
+      <Navbar />
       <Question />
 
     <Card className={classes.root}>
