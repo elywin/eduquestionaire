@@ -5,8 +5,8 @@ export default function Login() {
     <div>
       <form>
         <label>
-          UserName:
-          <input type="text" name="username" />
+          Email:
+          <input type="text" name="email" />
         </label>
         <label>
           Password:
